@@ -40,7 +40,7 @@ filtered_image_homomorphic = HomomorphicFiltering(I, D0, gammaL, gammaH, type, n
 
 
 filtered_image_sharpening = imsharpen(filtered_image_homomorphic,'Radius',2,'Amount',1);
-imshow(filtered_image_sharpening)
+%imshow(filtered_image_sharpening)
 
 %%normalize
 %normImage = im2double(filtered_image_sharpening,'indexed');
@@ -63,15 +63,13 @@ n = 2;
 filtered_image_highpassemphasis = HighFrequencyEmphasisFiltering(filtered_image_sharpening, k1, k2, type, D0, n);
 %}
 %%min_filter
-
-%%
-%localMinImage = imerode(filtered_image_sharpening, true(3));
-
+localMinImage = imerode(filtered_image_sharpening, true(3));
+imshow(localMinImage)
 
 %%max_filter
 %localMaxImage = imdilate(localMinImage, true(3));
 %%
-%imshow(localMinImage)
+%imshow(localMaxImage)
 
 
 
