@@ -3,5 +3,5 @@
 팀원 : [허명범](https://github.com/MyungBeomHer), [김태규]
 
 <p align="center">
-  <img src="project_pannel.pdf" width=75%> <br>
+  <img src="project_pannel.png" width=75%> <br>
 </p>
