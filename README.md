@@ -1,6 +1,6 @@
 ## 산학공동프로젝트
 
-팀원 : [허명범](https://github.com/min942773), [김태규]
+팀원 : [허명범](https://github.com/MyungBeomHer), [김태규]
 
 ## 1. 프로젝트 소개
 ### 프로젝트 선정 이유
