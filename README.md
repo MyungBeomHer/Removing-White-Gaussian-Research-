@@ -8,6 +8,9 @@
 ### 프로젝트 언어 및 환경
 프로젝트 언어 : Matlab
 
+### 첨부 보고서
+목표, 방법론, 연구 결과 등 자세한 과정은 첨부된 [**보고서**](https://github.com/min942773/database_project/blob/master/Animal%20Care.pdf) 참고
+
 ### Run 
 ```bash
 main_final.m
